@@ -15,7 +15,7 @@ body {
     object-fit: contain;
 }
 
-.montserrat{
+.montserrat {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,10 +26,46 @@ body {
 
 @media screen and (max-width: 375px) {
     body {
-        padding: 40px 20px;
+        padding: 30px 15px;
+        background-color: hsl(30, 38%, 92%);
     }
 
     .main-img {
-        width: 375px;
+        width: 345px;
+        border-radius: 10px 10px 0 0;
     }
+
+    .white-body {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+    }
+
+    .strikethrough {
+        text-decoration: line-through;
+        font-size: 14px;
+    }
+
+    .pricebig {
+        font-size: 32px;
+    }
+
+    button {
+        background-color:hsl(158, 36%, 37%);
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+
+    }
+    
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
 }
